@@ -20,14 +20,15 @@
     "types": ["vite/client"]
   },
   "include": [
-    "*.ts",
-    "*.tsx",
-    "*.d.ts",
+    "App.tsx",
+    "main.tsx",
+    "vite-env.d.ts",
     "static/**/*.ts",
     "static/**/*.tsx",
     "static/**/*.jsx",
     "static/**/*.js",
     "static/**/*.d.ts"
   ],
+  "exclude": ["dist", "node_modules", "vite.config.d.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
