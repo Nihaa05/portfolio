@@ -4,7 +4,7 @@ import { Box, Container, Typography, Button, Grid } from '@mui/material';
 import { KeyboardArrowDown, GitHub, LinkedIn, Email, Instagram } from '@mui/icons-material';
 import AnimatedTechSVG from './AnimatedTechSVG';
 
-import profilePhoto from '../../../photo/Niharika.JPG';
+import profilePhoto from '../../../Photo/Niharika.JPG';
 
 const Hero = () => {
   const [currentText, setCurrentText] = useState(0);
